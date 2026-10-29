@@ -1,0 +1,30 @@
+#mainGameArea{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+.grass{
+    position: absolute;
+    margin: 0;
+    background-color: lightgreen;
+    width: 20px;
+    height: 20px;
+}
+.snake{
+    position: absolute;
+    margin: 0;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+.apple{
+    position: absolute;
+    margin: 0;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
